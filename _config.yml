@@ -21,17 +21,15 @@
 # Sample configuration for the landing page theme
 # Replace these values with your own!
 
-baseurl: "/simple-landing-page" # the subpath of your site, e.g. /repo-name
+baseurl: "" # the subpath of your site, e.g. /repo-name
 
-name: John Doe
-email: your@email.com
-tagline: "A short tagline about yourself."
-description: "A longer description about you or your site."
-github_username: your-github
-linkedin_username: your-linkedin
+name: Zac Petro
+email: zac@zmpetro.com
+tagline: "Software Engineer in the Washington, DC area"
+description: "Hi, I'm Zac, a software engineer specializing in DevOps and Platform Engineering."
+github_username: zmpetro
+linkedin_username: zmpetro
 resume_url: /assets/resume.pdf
-twitter_username: your-twitter
-blog_url: https://yourblog.com
 
 # Portfolio projects (example)
 portfolio:
