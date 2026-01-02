@@ -51,24 +51,12 @@
             <div class="links">
                 {% include social-links.html %}
             </div>
-
-            <!-- Portfolio Section -->
-            <hr class="section-divider">
-            <h2 class="section-title">Portfolio</h2>
-            <p class="section-description">A few fun side projects I've worked on</p>
-            <div class="portfolio-grid">
-                {% if site.portfolio %}
-                    {% for project in site.portfolio %}
-                        {% include portfolio-item.html project=project %}
-                    {% endfor %}
-                {% endif %}
-            </div>
         </div>
     </div>
     <!-- Feel free to delete this footer. FOSS FTW!-->
     <footer class="site-footer">
         <p>
-            Made by Halil Can Kaskavalci | {{ 'now' | date: '%Y' }} | MIT License
+            Courtesy of Halil Can Kaskavalci | {{ 'now' | date: '%Y' }} | MIT License
             <br>
             <a href="https://github.com/kaskavalci/simple-landing-page"
             target="_blank" rel="noopener" class="">Make this yours!</a>
