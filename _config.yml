@@ -1,0 +1,51 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Sample configuration for the landing page theme
+# Replace these values with your own!
+
+baseurl: "/simple-landing-page" # the subpath of your site, e.g. /repo-name
+
+name: John Doe
+email: your@email.com
+tagline: "A short tagline about yourself."
+description: "A longer description about you or your site."
+github_username: your-github
+linkedin_username: your-linkedin
+resume_url: /assets/resume.pdf
+twitter_username: your-twitter
+blog_url: https://yourblog.com
+
+# Portfolio projects (example)
+portfolio:
+  - title: "Project One"
+    description: "A cool project you built."
+    image_url: /assets/project1.jpg
+    demo_url: https://demo1.com
+    github_url: https://github.com/your-github/project1
+  - title: "Project Two"
+    description: "Another awesome project."
+    image_url: /assets/project2.jpg
+    demo_url: https://demo2.com
+    github_url: https://github.com/your-github/project2
+
+# Build settings
+plugins:
+  - jekyll-feed
