@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /repo-name
 name: Zac Petro
 email: zac@zmpetro.com
 tagline: "Software Engineer in the Washington, DC area"
-description: "Hi, I'm Zac, a software engineer specializing in DevOps and Platform Engineering."
+description: "Hi, I'm Zac, a software engineer focused on platform engineering, cloud infrastructure, and automation."
 github_username: zmpetro
 linkedin_username: zmpetro
 resume_url: /assets/resume.pdf
